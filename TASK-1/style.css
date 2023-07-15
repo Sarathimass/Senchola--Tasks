@@ -1,0 +1,94 @@
+* {
+	padding: 0;
+	margin: 0;
+	background-color: aqua;
+}
+.name-label {
+	font-size: 20px;
+	margin-left: 10px;
+	font-weight: 500;
+}
+.name {
+	padding: 2px;
+	border: 2px solid black;
+	outline: none;
+	border-radius: 5px;
+}
+.email-label {
+	font-size: 20px;
+	margin-left: 10px;
+}
+.email {
+	padding: 2px;
+	border: 2px solid black;
+	outline: none;
+	border-radius: 5px;
+}
+
+form > h5 {
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+form > p {
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.male {
+	padding: 2px;
+	margin-left: 10px;
+	font-size: 18px;
+}
+.female {
+	padding: 2px;
+	margin-left: 10px;
+}
+.courses {
+	padding: 10px 10px;
+}
+.joblist {
+	font-size: 20px;
+	font-weight: bold;
+	padding: 10px;
+}
+.job {
+	padding: 2px;
+	border: 2px solid black;
+	outline: none;
+	border-radius: 5px;
+}
+.browser-title {
+	padding: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.browser {
+	padding: 2px;
+	border: 2px solid black;
+	outline: none;
+	border-radius: 5px;
+}
+.textbox {
+	margin: 10px;
+	padding: 2px;
+	border: 2px solid black;
+	outline: none;
+	border-radius: 5px;
+}
+.btn {
+	padding: 5px;
+	border: 2px solid black;
+	outline: none;
+	border-radius: 5px;
+	margin-left: 40%;
+	margin-bottom: 50px;
+	width: 5%;
+}
+.btn:hover {
+	background-color: #fff;
+	color: #000;
+}

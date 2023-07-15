@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TASK-1</title>
+</head>
+<body>
+  <form>
+    <h2 style="text-align: center;">APPLICATION FORM</h2>
+    <form action="" method="post">
+      <label for="Name" class="name-label">Name:</label>
+      <input type="text"  placeholder="Enter Your Name" class="name"><br><br>
+      <label for="email" class="email-label">E-mail:</label>
+      <input type="email"  placeholder="Enter Your E-mail" class="email"><br><br>
+      <h5>GENDER :</h5>
+      <input type="radio" id="male" name="gender" value="male" class="male">
+      <label for="gender" style="font-size: 20px">male</label><br>
+      <input type="radio" id="female" name="gender" value="female" class="female">
+      <label for="gender" style="font-size: 20px;">female</label><br>
+      <h5>CHOOSE YOUR SKILLS :</h5>
+      <div class="courses">
+        <input type="checkbox" value="checkbox">
+        <label for="checkbox">HTML</label><br>
+        <input type="checkbox" value="checkbox">
+        <label for="checkbox">CSS</label><br>
+        <input type="checkbox" value="checkbox">
+        <label for="checkbox">JAVASCRIPT</label><br>
+        <input type="checkbox" value="checkbox" >
+        <label for="checkbox">BOOTSTRAP</label><br>
+        <input type="checkbox" value="checkbox">
+        <label for="checkbox">REACT</label><br><br>
+      </div>
+
+    <div style="padding: 10px 0px;">
+      <label for="job" class="joblist">JOB TITLE :</label>
+      <select id="job" name="JOB" class="job">
+        <option value="FRONT END DEVELOPER">FRONT END DEVELOPER</option>
+        <option value="BACK END DEVELOPER">BACK END DEVELOPER</option>
+        <option value="FULL STACK DEVELOPER">FULL STACK DEVELOPER</option>
+        <option value=" WORD PRESS DEVELOPER">WORD PRESS DEVELOPER</option>
+        <option value="SOCIAL MEDIA MANAGEMENT">SOCIAL MEDIA MANAGEMENT</option>
+        <option value="CYBER SECURITY">CYBER SECURITY</option>
+      </select><br><br>
+
+    </div>
+     
+      <div style="padding: 10px 0px">
+        <label for="browser" class="browser-title">CHOOSE YOUR BROWSER FROM THE LIST :</label>
+        <select id="browser" name="browser" class="browser">
+                <option value="GOOGLE CHROME">GOOGLE CHROME</option>
+                <option value="OPERA">OPERA</option>
+                <option value=" MOZILLA FIREFOX"> MOZILLA FIREFOX</option>
+                <option value="MICROSOFT EDGE">MICROSOFT EDGE</option>
+                <option value="SAFARI">SAFARI</option>
+              </select><br><br>
+      </div>
+<p>ABOUT :</p>
+<textarea name="about" cols="30" rows="10" class="textbox"></textarea><br><br>
+<input type="button" value="submit" class="btn"">
+  </form>
+  
+</body>
+</html>
