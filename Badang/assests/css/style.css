@@ -1,0 +1,81 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	/* font-family: "Kanit", sans-serif; */
+}
+.main-page {
+	display: flex;
+	background-image: url("../img/bg-image-badang-3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header {
+	margin-bottom: 13rem;
+}
+.main-page--logo {
+	width: 200;
+	margin-top: 1rem;
+	margin-left: 5rem;
+}
+.main-page--desc {
+	margin-top: 10rem;
+	margin-left: 10rem;
+	color: #fff;
+	line-height: 1.5;
+	font-family: "Ysabeau SC", sans-serif;
+	font-weight: lighter;
+}
+.btn {
+	margin-top: 1rem;
+	margin-left: 10rem;
+}
+nav > ul {
+	margin-right: 15rem;
+}
+nav > ul > li {
+	display: inline-block;
+	padding: 3rem 0rem;
+	margin-right: 5rem;
+	font-family: "Rubik", sans-serif;
+	font-weight: 600;
+}
+nav > ul > li > a {
+	text-decoration: none;
+	color: #fff;
+}
+.main-page--icons {
+	padding: 3rem 0rem;
+	color: #fff;
+}
+.main-page--icons > i {
+	margin-right: 2rem;
+}
+/* button styling */
+.btn {
+	background-image: linear-gradient(
+		to right,
+		#4b6cb7 0%,
+		#182848 51%,
+		#4b6cb7 100%
+	);
+	padding: 10px;
+	margin: 1rem 0;
+	margin-left: 10rem;
+	width: 100px;
+	border-radius: 3px;
+	cursor: pointer;
+	border: none;
+	text-align: center;
+	text-transform: uppercase;
+	transition: 0.5s;
+	background-size: 200% auto;
+	color: white;
+	display: block;
+}
+
+.btn:hover {
+	background-position: right center; /* change the direction of the change here */
+	color: #fff;
+	text-decoration: none;
+}
